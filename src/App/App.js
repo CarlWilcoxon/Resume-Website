@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Example from '../Overview/Overview';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           </a>
         </nav>
       </header>
+      <Example></Example>
     </div>
   );
 }
